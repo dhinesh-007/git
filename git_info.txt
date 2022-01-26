@@ -1,0 +1,18 @@
+GIT
+Working directory > staging area > repo
+                <add>        <commit>
+
+GIT COMMANDS
+
+git config --global user.name "dhinesh"
+git config --global user.email "emailid@gmail.com"
+
+git init (used to initialize a git repo at working local directory)
+
+git add <File name> (working directory to staging area)
+
+git status (check current status)
+
+git commit -m "commit message" (to commit the current staged file to git repo with commit message)
+
+git log (log of commits in the repo)
