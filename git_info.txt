@@ -1,6 +1,13 @@
 GIT
-Working directory > staging area > repo
-                <add>        <commit>
+ * git is one of version control system.(track the changes in file and can revert it)
+ * synchronise code.
+GITHUB
+ * one of the service provider for git.
+
+ REPOSITORY:
+  a set of files,directories,historical records,commits and head,logs.
+Working directory > staging area  >  repo > remote repository
+                <add>        <commit>   <push>
 
 GIT COMMANDS
 
@@ -10,9 +17,22 @@ git config --global user.email "emailid@gmail.com"
 git init (used to initialize a git repo at working local directory)
 
 git add <File name> (working directory to staging area)
+git add . (copy all in w.d to s.a)
 
 git status (check current status)
 
 git commit -m "commit message" (to commit the current staged file to git repo with commit message)
 
 git log (log of commits in the repo)
+
+git help (help commands);git help remote(special help commands in remote)
+
+git remote add <name-origin> <url>(naming the url with remote)
+
+git branch -m "main"(to change name of the branch)
+
+git push -u <name-origin> <branch name- main> or git push (push request-to upload local repo to remote repo)
+
+git pull <name-origin> or git pull (pull request-to get/copy file from remote to local repo)
+
+git clone <url> (to clone public repo)
