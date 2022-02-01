@@ -1,5 +1,5 @@
 GIT
- * git is one of version control system.(track the changes in file and can revert it)
+ * git is one of version control system.(track the changes in file and can revert it..)
  * synchronise code.
 GITHUB
  * one of the service provider for git.
