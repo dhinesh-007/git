@@ -36,3 +36,9 @@ git push -u <name-origin> <branch name- main> or git push (push request-to uploa
 git pull <name-origin> or git pull (pull request-to get/copy file from remote to local repo)
 
 git clone <url> (to clone public repo)
+
+git branch branch_name(to create new branch)
+
+git checkout existing_branch_name(to change the branch from one to other::we can use checkout or switch command)
+
+git checkout -b new_branch_name(to create new branch and checkout it simultaneously)
