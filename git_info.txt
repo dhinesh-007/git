@@ -23,7 +23,10 @@ git status (check current status)
 
 git commit -m "commit message" (to commit the current staged file to git repo with commit message)
 
-git log (log of commits in the repo)
+git log (log of commits in the repo) or git log --oneline
+
+git diff file_name (to identify the difference between present file and previous file befor making changes)
+git diff --staged _____
 
 git help (help commands);git help remote(special help commands in remote)
 
